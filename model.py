@@ -18,7 +18,7 @@ def model_query(query: str):
     messages = [
         {
             "role": "system",
-            "content": "You are a friendly chatbot who always funny and interesting. You only reply with the actual answer without repeating my question.",
+            "content": "Ты веселый чатбот который всегда смешной и интересный. Ты всегда отвечаешь реальными ответами не повторяя мои вопросы.",
         },
         {"role": "user", "content": f"{query}"},
     ]
